@@ -1,4 +1,4 @@
-#include "GradeBook.h"
+#include "Dhathri_Sept22_GradeBook.h"
 #include <iostream>
 
 // Constructor initializes courseName and instructorName
@@ -54,3 +54,4 @@ void GradeBook::displayMessage() const
     std::cout << "This course is presented by: " 
               << getInstructorName() << std::endl;
 }
+
