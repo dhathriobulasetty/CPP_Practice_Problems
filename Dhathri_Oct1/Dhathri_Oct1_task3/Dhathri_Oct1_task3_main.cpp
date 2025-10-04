@@ -19,7 +19,7 @@ int main() {
     // Store them in a Quadrilateral* array for polymorphism
     Quadrilateral* shapes[5] = {&quad, &trap, &para, &rect, &sq};
 
-    // Demonstrate virtual functions
+    // Demonstrate functions
     for (int i = 0; i < 5; i++) {
         std::cout << *shapes[i] << "\n";
         std::cout << "Valid: " << shapes[i]->isValid() << "\n";
@@ -35,3 +35,4 @@ int main() {
 
     return 0;
 }
+
